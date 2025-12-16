@@ -70,7 +70,7 @@ graph TD
 
 ```bash
 Python 3.10+
-pip install langgraph langchain langchain-google-genai langchain-tavily langchain-community python-dotenv
+pip install -r requirements.txt
 ```
 
 ### API Keys Setup
