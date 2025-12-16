@@ -266,7 +266,7 @@ Write a professional report with:
 Use proper Markdown formatting."""
     
     response = llm.invoke([HumanMessage(content=writer_prompt)])
-    final_report = response.content
+    final_report = response.content[-1]['text'].strip()
     
     print("✅ Report completed!")
     
