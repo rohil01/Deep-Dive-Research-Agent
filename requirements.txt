@@ -1,0 +1,6 @@
+langgraph
+langchain
+langchain_community
+langchain-google-genai
+langchain-tavily
+bs4
