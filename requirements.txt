@@ -1,6 +1,17 @@
-langgraph
-langchain
-langchain_community
-langchain-google-genai
-langchain-tavily
-bs4
+# Core agent framework
+langgraph>=0.2.60
+langchain>=0.3.14
+langchain-core>=0.3.29
+langchain-community>=0.3.14
+langchain-google-genai>=2.0.8
+langchain-tavily>=0.1.0
+
+# Parsing / scraping
+beautifulsoup4>=4.12.3
+
+# Config & CLI
+python-dotenv>=1.0.1
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+typer>=0.15.0
+rich>=13.9.0
